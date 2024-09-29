@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+  
+        function f1(){
+            window.y = 20;
+        }
+        function f2(){
+            alert("y: " +y)
+        }
+        f1()
+        f2()
+        const handleClick = () =>{
+            console.log("y=",y)
+        }
+        
+    </script>
+</head>
+<body>
+    <button onClick='handleClick()'>Press</button>
+</body>
+</html>
